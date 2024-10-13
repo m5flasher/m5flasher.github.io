@@ -1,0 +1,15 @@
+{
+    "name": "M5Stick-SHARK",
+    "version": "1.0.4",
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          {
+            "path": "../../firmwares/stickplus1/M5shark-809c20f-M5StickCPlus.bin",
+            "offset": 0
+          }
+        ]
+      }
+    ]
+  }

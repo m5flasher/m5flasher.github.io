@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+sitemap: https://m5flasher.ru/sitemap.xml

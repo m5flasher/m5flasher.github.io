@@ -1,0 +1,12 @@
+{
+  "name": "Nemo",
+  "version": "2.7.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "../../firmwares/stickplus2/M5Nemo-v2.7.0-M5StickCPlus2.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

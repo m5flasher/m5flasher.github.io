@@ -1,0 +1,15 @@
+{
+  "name": "Marauder",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "../../firmwares/stickplus1/esp32_marauder_v1_0_0_20240626_m5stickc_plus.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

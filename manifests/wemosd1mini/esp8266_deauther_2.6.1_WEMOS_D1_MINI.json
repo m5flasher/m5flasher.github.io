@@ -1,0 +1,13 @@
+{
+  "name": "Deauther",
+  "version": "2021.11.0",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "../../firmwares/wemosd1mini/esp8266_deauther_2.6.1_WEMOS_D1_MINI.bin", "offset": 0 }
+      ]
+    }
+  ]
+  
+}
