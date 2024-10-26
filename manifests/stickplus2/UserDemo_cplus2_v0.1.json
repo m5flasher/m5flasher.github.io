@@ -1,0 +1,15 @@
+{
+    "name": "UserDemo",
+    "version": "0.1",
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "parts": [
+                {
+                    "path": "../../firmwares/stickplus2/UserDemo_cplus2_v0.1.bin",
+                    "offset": 0
+                }
+            ]
+        }
+    ]
+}

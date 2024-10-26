@@ -1,0 +1,12 @@
+{
+  "name": "Marauder",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "../../firmwares/stickplus2/Marauder_cplus2_v1.0.0.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

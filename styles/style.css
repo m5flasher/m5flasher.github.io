@@ -1,0 +1,236 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #2c2c2c;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ff6b35;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #ff6b35;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6b35;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff451a;
+}
+
+header {
+    margin: 20px 0;
+}
+
+.name h2 {
+    font-size: 24px; /* Размер шрифта */
+    color: #ff6b35; /* Цвет текста */
+    font-weight: bold; /* Жирный шрифт */
+    margin: 10px 0; /* Отступы сверху и снизу */
+    text-align: center; /* Выравнивание по центру */
+    margin-top: 30px;
+}
+
+/* Секция инструкции */
+.instructions {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
+    position: relative;
+    text-align: center; /* Центрирование текста */
+}
+
+.instructions:before {
+    content: 'Внимание!';
+    font-size: 1.2rem;
+    color: #ff6b35;
+    font-weight: 700;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    background-color: #1e1e1e;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.instructions ol {
+    display: inline-block; /* Это позволяет списку быть центровым внутри блока */
+    text-align: left; /* Но сам список будет выровнен по левому краю для удобства чтения */
+    margin-top: 10px;
+}
+
+.instructions li {
+    font-size: 1rem;
+    line-height: 1.8;
+    padding: 5px 0;
+}
+
+/* Список устройств */
+.device-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.device-list li {
+    margin: 10px 0;
+}
+
+.device-list a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff6b35;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.device-list a:hover {
+    background-color: #ff451a;
+    transform: scale(1.05);
+}
+
+.back a {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    background-color: #fc4117;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back a:hover {
+    background-color: #ff3102;
+    transform: scale(1.05);
+}
+
+.section-firm {
+    margin: 2px 0; /* Отступы между секциями */
+    padding: 5px; /* Внутренние отступы */
+}
+
+/* Стили для кнопок */
+.firm {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff9a35;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.firm:hover {
+    background-color: #ff451a;
+    transform: scale(1.05);
+}
+
+.firm {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff6b35;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.firm:hover {
+    background-color: #ff451a;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+footer a {
+    color: #ff6b35;
+}
+
+/* Адаптивные стили для маленьких экранов */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    p, .instructions li {
+        font-size: 0.95rem;
+    }
+
+    .device-list a {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
+
+.archive {
+    display: inline-block; /* Позволяет кнопке вести себя как блочный элемент */
+    padding: 12px 24px; /* Отступы внутри кнопки */
+    background-color: #ff6b35; /* Цвет фона кнопки */
+    border-radius: 8px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+    font-weight: 500; /* Жирность текста */
+    font-size: 18px; /* Увеличенный размер шрифта */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Плавный переход */
+}
+
+.archive:hover {
+    background-color: #ff451a; /* Цвет фона при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+}

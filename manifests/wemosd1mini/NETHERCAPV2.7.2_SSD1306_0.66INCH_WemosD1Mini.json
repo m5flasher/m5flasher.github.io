@@ -1,0 +1,13 @@
+{
+  "name": "NETHERCAP",
+  "version": "2.7.2",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "../../firmwares/wemosd1mini/NETHERCAPV2.7.2_SSD1306_0.66INCH_WemosD1Mini.bin", "offset": 0 }
+      ]
+    }
+  ]
+  
+}
