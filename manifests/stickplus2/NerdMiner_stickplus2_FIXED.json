@@ -1,0 +1,12 @@
+{
+  "name": "NerdMiner",
+  "version": "FIXED",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "../../firmwares/stickplus2/NerdMiner_stickplus2_FIXED.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
