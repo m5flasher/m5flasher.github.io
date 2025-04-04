@@ -1,0 +1,14 @@
+{
+    "name": "Marauder",
+    "version": "v1.0.0",
+    "new_install_improv_wait_time": 0,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "../../firmwares/cyd/esp32_marauder_v1_0_0_20240627_cyd_nogpspwn.bin", "offset": 0 }
+        ]
+      }
+    ]
+  }
+  

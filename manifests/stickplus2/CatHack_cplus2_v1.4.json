@@ -1,13 +1,13 @@
 {
-  "name": "Marauder",
-  "version": "1.0.0",
+  "name": "CatHack",
+  "version": "1.4",
   "new_install_improv_wait_time": 0,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "../../firmwares/stickplus1/Marauder_cplus1_v1.0.0.bin",
+          "path": "../../firmwares/stickplus2/CatHack_cplus2_v1.4.bin",
           "offset": 0
         }
       ]

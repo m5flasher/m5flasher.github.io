@@ -1,0 +1,13 @@
+{
+  "name": "Bruce",
+  "version": "1.8",
+  "new_install_improv_wait_time": 0,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "../../firmwares/stickplus2/Bruce_cplus2_v1.8.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

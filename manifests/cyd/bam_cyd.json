@@ -1,0 +1,14 @@
+{
+    "name": "bam",
+    "version": "v1.0.4",
+    "new_install_improv_wait_time": 0,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "../../firmwares/cyd/bam_cyd.bin", "offset": 0 }
+        ]
+      }
+    ]
+  }
+  

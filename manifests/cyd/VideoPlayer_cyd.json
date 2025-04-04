@@ -1,0 +1,14 @@
+{
+    "name": "VideoPlayer",
+    "version": "v1",
+    "new_install_improv_wait_time": 0,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "../../firmwares/cyd/VideoPlayer_cyd.bin", "offset": 0 }
+        ]
+      }
+    ]
+  }
+  

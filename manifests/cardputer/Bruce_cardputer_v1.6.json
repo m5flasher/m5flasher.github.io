@@ -1,0 +1,17 @@
+{
+  "name": "Bruce",
+  "version": "1.6",
+  "new_install_improv_wait_time": 0,
+  "builds": [
+      {
+          "chipFamily": "ESP32-S3",
+          "improv": false,
+          "parts": [
+              {
+                  "path": "../../firmwares/cardputer/Bruce_cardputer_v1.6.bin",
+                  "offset": 0
+              }
+          ]
+      }
+  ]
+}

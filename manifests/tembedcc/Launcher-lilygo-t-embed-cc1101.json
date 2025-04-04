@@ -1,0 +1,14 @@
+{
+    "name": "M5Launcher",
+    "version": "2.4.1",
+    "new_install_improv_wait_time": 0,
+    "builds": [
+      {
+        "chipFamily": "ESP32-S3",
+        "parts": [
+          { "path": "../../firmwares/tembedcc/Launcher-lilygo-t-embed-cc1101.bin", "offset": 0 }
+        ]
+      }
+    ]
+  }
+  

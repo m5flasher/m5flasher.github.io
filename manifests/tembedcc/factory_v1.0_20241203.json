@@ -1,0 +1,14 @@
+{
+    "name": "Factory",
+    "version": "1.0",
+    "new_install_improv_wait_time": 0,
+    "builds": [
+      {
+        "chipFamily": "ESP32-S3",
+        "parts": [
+          { "path": "../../firmwares/tembedcc/factory_v1.0_20241203.bin", "offset": 0 }
+        ]
+      }
+    ]
+  }
+  

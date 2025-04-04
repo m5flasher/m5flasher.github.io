@@ -1,6 +1,7 @@
 {
   "name": "Nemo",
   "version": "2.7.0",
+  "new_install_improv_wait_time": 0,
   "builds": [
     {
       "chipFamily": "ESP32",

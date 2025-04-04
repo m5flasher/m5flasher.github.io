@@ -1,13 +1,12 @@
 {
-    "name": "UserDemo",
-    "version": "0.1",
-    "new_install_improv_wait_time": 0,
+    "name": "Windows XP (fake)",
+    "version": "1.0",
     "builds": [
         {
             "chipFamily": "ESP32",
             "parts": [
                 {
-                    "path": "../../firmwares/stickplus2/UserDemo_cplus2_v0.1.bin",
+                    "path": "../../firmwares/stickplus2/WindowsXP-cplus2-v1.0.bin",
                     "offset": 0
                 }
             ]

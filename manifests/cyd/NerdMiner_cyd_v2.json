@@ -1,12 +1,12 @@
 {
-  "name": "Nemo",
-  "version": "2.7.0",
+  "name": "NerdMiner",
+  "version": "v2",
   "new_install_improv_wait_time": 0,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "../../firmwares/stickplus2/Nemo_cplus2_v2.7.0.bin", "offset": 0 }
+        { "path": "../../firmwares/cyd/NerdMiner_cyd_v2.bin", "offset": 0 }
       ]
     }
   ]

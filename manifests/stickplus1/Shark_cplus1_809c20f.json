@@ -1,6 +1,7 @@
 {
     "name": "M5Stick-SHARK",
     "version": "809c20f",
+    "new_install_improv_wait_time": 0,
     "builds": [
       {
         "chipFamily": "ESP32",
