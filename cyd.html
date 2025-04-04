@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="M5Flasher">
-  <meta property="og:description" content="Прошивки для M5StickC Plus 2">
-  <meta name="description" content="Прошивки для M5StickC Plus 2" />
-  <title>M5Flasher | M5StickC Plus 2</title>
+  <meta property="og:description" content="Прошивки для ESP CYD">
+  <meta name="description" content="Прошивки для ESP CYD" />
+  <title>M5Flasher | ESP CYD</title>
   <link rel="stylesheet" href="./styles/style.css">
   <script type="module" src="esp-web-tool/install-button.js?module"></script>
 </head>
@@ -21,7 +21,7 @@
     </header>
 
     <section class="name">
-      <h2>M5StickC Plus2</h2>
+      <h2>ESP32-2432S028</h2>
       <div class="back">
         <a href="/">
           < Вернуться назад</a>
@@ -30,13 +30,12 @@
     <div id="firmwares-container"></div>
     <script defer>
       const firmwares = [
-        { manifest: "manifests/stickplus2/Bruce_cplus2_v1.8.json", name: "Bruce 1.8" },
-        { manifest: "manifests/stickplus2/CatHack_cplus2_v1.4.json", name: "CatHack 1.4" },
-        { manifest: "manifests/stickplus2/Nemo_cplus2_v2.7.0.json", name: "NEMO" },
-        { manifest: "manifests/stickplus2/Shark_cplus2_809c20f.json", name: "SHARK" },
-        { manifest: "manifests/stickplus2/Marauder_cplus2_v1.0.0.json", name: "Marauder" },
-        { manifest: "manifests/stickplus2/Launcher_cplus2_v2.3.1.json", name: "M5Launcher" },
-        { manifest: "manifests/stickplus2/UserDemo_cplus2_v0.1.json", name: "UserDemo" },
+        { manifest: "manifests/cyd/Bruce-CYD-KeyboardFix.json", name: "Bruce" },
+        { manifest: "manifests/cyd/esp32_marauder_v1_0_0_20240627_cyd_nogpspwn.json", name: "Marauder" },
+        { manifest: "manifests/cyd/NerdMiner_cyd_v2.json", name: "NerdMiner" },
+        { manifest: "manifests/cyd/VideoPlayer_cyd.json", name: "VideoPlayer" },
+        { manifest: "manifests/cyd/FluidSimulation-cyd.json", name: "Fluid Simulation" },
+        { manifest: "manifests/cyd/bam_cyd.json", name: "BAM (game)" },
       ];
     </script>
     <script async src="scripts/firmwares.js"></script>

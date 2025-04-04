@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="M5Flasher">
-  <meta property="og:description" content="Прошивки для M5StickC Plus 2">
-  <meta name="description" content="Прошивки для M5StickC Plus 2" />
-  <title>M5Flasher | M5StickC Plus 2</title>
+  <meta property="og:description" content="Прошивки для T-Embed CC1101">
+  <meta name="description" content="Прошивки для T-Embed CC1101" />
+  <title>M5Flasher | T-Embed CC1101</title>
   <link rel="stylesheet" href="./styles/style.css">
   <script type="module" src="esp-web-tool/install-button.js?module"></script>
 </head>
@@ -21,7 +21,7 @@
     </header>
 
     <section class="name">
-      <h2>M5StickC Plus2</h2>
+      <h2>T-Embed CC1101</h2>
       <div class="back">
         <a href="/">
           < Вернуться назад</a>
@@ -30,17 +30,12 @@
     <div id="firmwares-container"></div>
     <script defer>
       const firmwares = [
-        { manifest: "manifests/stickplus2/Bruce_cplus2_v1.8.json", name: "Bruce 1.8" },
-        { manifest: "manifests/stickplus2/CatHack_cplus2_v1.4.json", name: "CatHack 1.4" },
-        { manifest: "manifests/stickplus2/Nemo_cplus2_v2.7.0.json", name: "NEMO" },
-        { manifest: "manifests/stickplus2/Shark_cplus2_809c20f.json", name: "SHARK" },
-        { manifest: "manifests/stickplus2/Marauder_cplus2_v1.0.0.json", name: "Marauder" },
-        { manifest: "manifests/stickplus2/Launcher_cplus2_v2.3.1.json", name: "M5Launcher" },
-        { manifest: "manifests/stickplus2/UserDemo_cplus2_v0.1.json", name: "UserDemo" },
+      { manifest: "manifests/tembedcc/Bruce-lilygo-t-embed-cc1101.json", name: "Bruce 1.8", },
+      { manifest: "manifests/tembedcc/Launcher-lilygo-t-embed-cc1101.json", name: "M5Launcher 2.4.1", },
+      { manifest: "manifests/tembedcc/factory_v1.0_20241203.json", name: "Factory", },
       ];
     </script>
-    <script async src="scripts/firmwares.js"></script>
-  </div>
+    <script src="scripts/firmwares.js"></script>
 </body>
 
 </html>
